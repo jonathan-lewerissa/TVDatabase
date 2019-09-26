@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="6dp"
+    app:cardElevation="6dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/card_thumbnail"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/card_cover_height"
+            android:clickable="true"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/card_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/card_thumbnail"
+            android:paddingLeft="@dimen/card_title_padding"
+            android:paddingRight="@dimen/card_title_padding"
+            android:paddingTop="@dimen/card_title_padding"
+            android:textSize="@dimen/card_title"/>
+
+        <TextView
+            android:id="@+id/card_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/card_title"
+            android:paddingLeft="@dimen/card_title_padding"
+            android:paddingRight="@dimen/card_title_padding"
+            android:paddingTop="@dimen/card_title_padding"
+            android:textSize="@dimen/card_title"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
