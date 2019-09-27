@@ -30,10 +30,10 @@
             android:paddingLeft="@dimen/card_title_padding"
             android:paddingRight="@dimen/card_title_padding"
             android:paddingTop="@dimen/card_title_padding"
-            android:textSize="@dimen/card_title"/>
+            android:textSize="20sp"/>
 
         <TextView
-            android:id="@+id/card_info"
+            android:id="@+id/card_first_aired"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/card_title"
@@ -41,6 +41,37 @@
             android:paddingRight="@dimen/card_title_padding"
             android:paddingTop="@dimen/card_title_padding"
             android:textSize="@dimen/card_title"/>
+
+        <TextView
+            android:id="@+id/card_director"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/card_first_aired"
+            android:paddingLeft="@dimen/card_title_padding"
+            android:paddingRight="@dimen/card_title_padding"
+            android:paddingTop="@dimen/card_title_padding"
+            android:textSize="10sp"/>
+
+        <TextView
+            android:id="@+id/card_guest_star"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/card_director"
+            android:paddingLeft="@dimen/card_title_padding"
+            android:paddingRight="@dimen/card_title_padding"
+            android:paddingTop="@dimen/card_title_padding"
+            android:textSize="10sp"/>
+
+        <TextView
+            android:id="@+id/card_rating"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/card_guest_star"
+            android:paddingLeft="@dimen/card_title_padding"
+            android:paddingRight="@dimen/card_title_padding"
+            android:paddingTop="@dimen/card_title_padding"
+            android:textSize="10sp"/>
+
 
     </LinearLayout>
 
